@@ -78,9 +78,19 @@ here the "h1" is tag name .. alsoo it can be the the
 
 ``` javascript
 
-gsap.from("h1",{
-    // existing css properties or GSAP properties
-    stagger:0.2,
+
+var tl = gsap.timeline();
+
+tl.from("h2",{
+    //Existing Properties 
+})
+
+tl.from("h4",{
+    //Existing Properties 
+})
+
+tl.from("h1", {
+    //Existing Properties 
 })
 
 /*
