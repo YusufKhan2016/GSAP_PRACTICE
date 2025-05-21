@@ -16,7 +16,7 @@ tl.from("h4",{
 })
 
 tl.from("h1", {
-    y:20,
+    y:100,
     opacity:0,
     duration: 0.5,
     scale: 0.2,
