@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 h1{
+    font-size: 40vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+
