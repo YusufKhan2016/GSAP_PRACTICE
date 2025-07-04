@@ -4,7 +4,7 @@ var full = document.querySelector("#full");
 
 var tl = gsap.timeline();
 
-tl.to("#full", {
+tl.from("#full", {
     right: "0",
     duration: 0.2,
 })
